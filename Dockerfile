@@ -1,4 +1,4 @@
-FROM hasura/graphql-engine:v1.3.3
+FROM hasura/graphql-engine:v2.0.0-alpha.4
 
 # Enable the console
 ENV HASURA_GRAPHQL_ENABLE_CONSOLE=true
@@ -14,6 +14,7 @@ ENV HASURA_GRAPHQL_PG_CONNECTIONS=15
 # the primary postgres instance in your app
 CMD graphql-engine \
     --database-url $DATABASE_URL \
+    --database-metadata-url $DATABASE_METADATA_URL
     serve \
     --server-port $PORT
 

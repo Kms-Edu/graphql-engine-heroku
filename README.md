@@ -106,3 +106,6 @@ and everything. You can also contact us using one of the following channels:
 - [Authentication/Access control](https://docs.hasura.io/1.0/graphql/manual/auth/index.html)
 - [Database Migrations](https://docs.hasura.io/1.0/graphql/manual/migrations/index.html)
 - [Guides/Tutorials/Resources](https://docs.hasura.io/1.0/graphql/manual/guides/index.html)
+
+
+postgres://odoo:odoo@erp.hpu.edu.vn:5432/erp01
